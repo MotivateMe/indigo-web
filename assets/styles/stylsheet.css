@@ -1,0 +1,88 @@
+ul {
+	list-style:none;
+}
+.footer	{
+	background: url("Panorama1.png");
+	background-repeat:repeat;
+	-webkit-background-size: cover;
+	padding-top: 75px;
+	padding-bottom:75px;
+	}
+.footer p{
+	font-size: 16px;
+	font-family:"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	color:#FFFFFF;
+	text-align:center;
+	font-style:normal;
+}
+.traka{
+	background: url("imported layers copy.png");
+	height:6px;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.naslov	{
+	background: url("UntitledPanorama6.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	height: 100%; 
+}
+.naslov img{
+	margin:300px auto;
+	width:100%;
+}
+.container2{
+	position:relative;
+	height:1050px;
+	width:75%;
+	margin:0px auto;
+}
+.container2 .prva {
+	position:absolute;
+	top: 50px;
+	left: 250px;
+}	
+.container2 .druga {
+	position:absolute;
+	top: 200px;
+	left: 90px;
+}
+.container2 .treca {
+	position:absolute;
+	top: 430px;
+	left: 330px;
+}
+.container2 .cetvrta {
+	position:absolute;
+	top: 120px;
+	left: 570px;
+}
+.container2 .peta {
+	position:absolute;
+	top: 430px;
+	left: 570px;
+}
+.container2 .sesta {
+	position:absolute;
+	top: 545px;
+	left: 620px;
+}
+.prveslike1	{
+	float:				left;
+	position:		relative;
+	margin-left:		280px;
+	margin-top:			20px;
+	}
+.prveslike2	{
+	float:				left;
+	position:		releative;
+	margin-left:		-20px;
+	margin-top:			20px;
+}
+.prveslike3	{
+	float:				left;
+	position:		releative;
+	margin-left:		-20px;
+	margin-top:			20px;
+}
