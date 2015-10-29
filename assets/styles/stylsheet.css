@@ -2,7 +2,7 @@ ul {
 	list-style:none;
 }
 .footer	{
-	background: url("Panorama1.png");
+	background: url("/assets/images/Panorama1.png");
 	background-repeat:repeat;
 	-webkit-background-size: cover;
 	padding-top: 75px;
@@ -16,14 +16,14 @@ ul {
 	font-style:normal;
 }
 .traka{
-	background: url("imported layers copy.png");
+	background: url("/assets/images/ImportedLayersCopy.png");
 	height:6px;
 	width:100%;
 	margin-top:50px;
 	margin-bottom:50px;
 }
 .naslov	{
-	background: url("UntitledPanorama6.png") no-repeat center center fixed;
+	background: url("/assets/images/Panorama3.png") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	height: 100%; 
@@ -76,13 +76,64 @@ ul {
 	}
 .prveslike2	{
 	float:				left;
-	position:		releative;
+	position:		relative;
 	margin-left:		-20px;
 	margin-top:			20px;
 }
 .prveslike3	{
 	float:				left;
-	position:		releative;
+	position:		relative;
 	margin-left:		-20px;
 	margin-top:			20px;
+}
+.container3 {
+	position:relative;
+	height:150px;
+	width:75%;
+	margin: 1px auto;
+}
+.container3 img{
+	padding: 10px 40px;
+ 	border: 1px none;
+ 	margin-top: 35px;
+}
+
+@media (min-width: 600px) {
+  .container2{
+	position:relative;
+	}
+.container2 .prva {
+	position:absolute;
+	}	
+.container2 .druga {
+	position:absolute;
+	}
+.container2 .treca {
+	position:absolute;
+}
+.container2 .cetvrta {
+	position:absolute;
+}
+.container2 .peta {
+	position:absolute;
+}
+.container2 .sesta {
+	position:absolute;
+}
+.prveslike1	{
+	float:				left;
+	position:		relative;
+	}
+.prveslike2	{
+	float:				left;
+	position:		relative;
+}
+.prveslike3	{
+	float:				left;
+	position:		relative;
+}
+.container3 {
+	position:relative;
+}
+.container3 img{}
 }
