@@ -1,181 +1,189 @@
+.headline	{
+	background: 				url("/assets/images/Panorama3.png") no-repeat center center fixed;
+	-webkit-background-size: 	cover;
+	-moz-background-size: 		cover;
+	height: 					400px; 
+}
+.headline img{
+	margin:				180px auto;
+	width:				100%;
+}
 ul {
 	list-style:			none;
 }
 .footer	{
-	background: url("/assets/images/Panorama1.png");
+	background: 			url("/assets/images/Panorama1.png");
 	background-repeat:		repeat;
 	-webkit-background-size: cover;
-	padding-top: 75px;
-	padding-bottom:75px;
+	padding-top: 			75px;
+	padding-bottom:			75px;
 	}
 .footer p{
-	font-size: 16px;
-	font-family:"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-	color:#FFFFFF;
+	font-size: 		16px;
+	font-family:	"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	color:			#FFFFFF;
 	text-align:		center;
 	font-style:		normal;
 }
-.traka{
-	background: url("/assets/images/ImportedLayersCopy.png");
+.tray{
+	background: 	url("/assets/images/ImportedLayersCopy.png");
 	height:			6px;
 	width:			100%;
 	margin-top:		20px;
 	margin-bottom:	25px;
 }
-.naslov	{
-	background: url("/assets/images/Panorama3.png") no-repeat center center fixed;
-	-webkit-background-size: 	cover;
-	-moz-background-size: 		cover;
-	height: 400px; 
+.first_img.col1	{
 }
-.naslov img{
-	margin:180px auto;
-	width:100%;
-}
-.container2{
-}
-.container2 .prva {
-	display:none;
-	width: 100%;
-	height: 100%;
-	top: 50px;
-	left: 250px;
-}	
-.container2 .druga {
-	width: 100%;
-	height: 100%;
-	top: 200px;
-	left: 90px;
-}
-.container2 .treca {
-	width: 100%;
-	height: 100%;
-	top: 430px;
-	left: 330px;
-}
-.container2 .cetvrta {
-	width: 100%;
-	height: 100%;
-	top: 120px;
-	left: 570px;
-}
-.container2 .peta {
-	display:none;
-	width: 100%;
-	height: 100%;
-	top: 430px;
-	left: 570px;
-}
-.container2 .sesta {
-	display:none;
-	width: 100%;
-	height: 100%;
-	top: 545px;
-	left: 620px;
-}
-.prveslike.col1	{
+.first_img.col2	{	
 }
 
-.prveslike.col2	{	
+.first_img.col3	{	
+}
+.first_img ul {
+	padding-left: 			0;
+}
+.first_img ul li img {
+	display:			inline;
+	width: 				100%;
+	padding: 			10px;
 }
 
-.prveslike.col3	{	
-}
-.prveslike ul {
-	padding-left: 0;
-}
-.prveslike ul li img {
-	display:block;
-	width: 100%;
-}
-.container3 {
-	
+.container2 {
 	display: 			block;
     margin: 			0px auto;
 }
-.container3 img{
+.container2 img{
  	border: 			1px none;
  	margin:				0 auto;
  	display: 			block;
 }
+.container3{
+}
+.container3 .first {
+	display:		none;
+	width: 			100%;
+	height: 		100%;
+	top: 			50px;
+	left: 			250px;
+}	
+.container3 .second {
+	width: 			100%;
+	height: 		100%;
+	top: 			200px;
+	left: 			90px;
+}
+.container3 .third {
+	width: 			100%;
+	height: 		100%;
+	top: 			430px;
+	left: 			330px;
+}
+.container3 .fourth {
+	width: 			100%;
+	height: 		100%;
+	top: 			120px;
+	left: 			570px;
+}
+.container3 .fifth {
+	display:		none;
+	width: 			100%;
+	height: 		100%;
+	top: 			430px;
+	left: 			570px;
+}
+.container3 .sixth {
+	display:		none;
+	width: 			100%;
+	height: 		100%;
+	top: 			545px;
+	left: 			620px;
+}
 
 @media (min-width: 600px) {
-	.naslov {
-		height: 100%;
+	.headline {
+		height: 	100%;
 	}
-	.naslov img{
-	margin:300px auto;
+	.headline img{
+	margin:			300px auto;
 	}
-	.traka{
-	margin-top:	107%	50px;
+	.tray{
+	margin-top:		107%	50px;
 	margin-bottom:	50px;
 	}
-    .container2{
-    	height:			1050px;
-		width:			75%;
+	.first_img.col1	{
+		float:				left;
 		position:		relative;
-		margin:			0px auto;
+		margin-left:		280px;
+		margin-top:			20px;
+		padding:			10px;
 	}
-	.container2 .prva {
-		position:		absolute;
-	}	
-	.container2 .druga {
-		width: 			auto;
-		height:			auto;
-		position:		absolute;
-	}
-	.container2 .treca {
-		width: 			auto;
-		height:			auto;
-		position:		absolute;
-	}
-	.container2 .cetvrta {
-		width: 			auto;
-		height:			auto;
-		position:		absolute;
-	}
-	.container2 .peta {
-		width: auto;
-		height:auto;
-		position:		absolute;
-	}
-	.container2 .sesta {
-		position:		absolute;
-	}
-	.prveslike1	{
+	.first_img.col2	{
+		float:				left;
 		position:		relative;
-		margin-left:	320px;
-		float:			left;
-		margin-top:		20px;
+		margin-left:		-20px;
+		margin-top:			20px;
+		padding:			10px;
 	}
-	.prveslike2	{
+	.first_img.col3	{
+		float:				left;
 		position:		relative;
-		margin-left:	-20px;
-		margin-top:		20px;
-		float:			left;
+		margin-left:		-20px;
+		margin-top:			20px;
+		padding:			10px;
 	}
-	.prveslike3	{
-		margin-left:	-20px;
-		margin-top:		20px;
-		float:			left;
-		position:		relative;
+	.first_img ul {
+		padding-left: 		20px;
 	}
-	.prveslike ul {
-		padding-left: 0;
-	}
-	.prveslike ul li img {
-		display:block;
-		width: normal;
-	}
-	.container3 {
+	
+	.container2 {
 		height:			150px;
 		width:			75%;
 		position:		relative;
 		margin: 		1px auto;
 	}
-	.container3 img{
+	.container2 img{
 		display: 		inline;
-		padding: 		10px 40px;
-		margin-top: 	35px;
+		padding: 		20px 25px;
+		margin-top: 	10px;
+	}
+
+    .container3{
+    	height:			1050px;
+		width:			75%;
+		position:		relative;
+		margin:			0px auto;
+	}
+	.container3 .first {
+		position:		absolute;
+		display: 		block;
+		width: 			auto;
+		height:			auto;
+	}	
+	.container3 .second {
+		width: 			auto;
+		height:			auto;
+		position:		absolute;
+	}
+	.container3 .third {
+		width: 			auto;
+		height:			auto;
+		position:		absolute;
+	}
+	.container3 .fourth {
+		width: 			auto;
+		height:			auto;
+		position:		absolute;
+	}
+	.container3 .fifth {
+		width: 			auto;
+		height:			auto;
+		position:		absolute;
+		display: 		block;
+	}
+	.container3 .sixth {
+		position:		absolute;
+		display: 		block;
+		width:			auto;
+		height:			auto;
 	}
 }
