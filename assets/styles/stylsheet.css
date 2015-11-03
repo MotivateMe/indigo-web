@@ -1,5 +1,5 @@
 ul {
-	list-style:none;
+	list-style:			none;
 }
 .footer	{
 	background: url("/assets/images/Panorama1.png");
@@ -19,17 +19,17 @@ ul {
 	background: url("/assets/images/ImportedLayersCopy.png");
 	height:			6px;
 	width:			100%;
-	margin-top:		50px;
-	margin-bottom:	50px;
+	margin-top:		20px;
+	margin-bottom:	25px;
 }
 .naslov	{
 	background: url("/assets/images/Panorama3.png") no-repeat center center fixed;
 	-webkit-background-size: 	cover;
 	-moz-background-size: 		cover;
-	height: 100%; 
+	height: 400px; 
 }
 .naslov img{
-	margin:300px auto;
+	margin:180px auto;
 	width:100%;
 }
 .container2{
@@ -73,12 +73,20 @@ ul {
 	top: 545px;
 	left: 620px;
 }
-.prveslike1	{
-	margin:auto;
+.prveslike.col1	{
 }
-.prveslike2	{	
+
+.prveslike.col2	{	
 }
-.prveslike3	{	
+
+.prveslike.col3	{	
+}
+.prveslike ul {
+	padding-left: 0;
+}
+.prveslike ul li img {
+	display:block;
+	width: 100%;
 }
 .container3 {
 	
@@ -92,6 +100,16 @@ ul {
 }
 
 @media (min-width: 600px) {
+	.naslov {
+		height: 100%;
+	}
+	.naslov img{
+	margin:300px auto;
+	}
+	.traka{
+	margin-top:	107%	50px;
+	margin-bottom:	50px;
+	}
     .container2{
     	height:			1050px;
 		width:			75%;
@@ -141,6 +159,13 @@ ul {
 		margin-top:		20px;
 		float:			left;
 		position:		relative;
+	}
+	.prveslike ul {
+		padding-left: 0;
+	}
+	.prveslike ul li img {
+		display:block;
+		width: normal;
 	}
 	.container3 {
 		height:			150px;
